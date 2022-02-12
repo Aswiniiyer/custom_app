@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "R.##",
+ "creation": "2022-02-11 11:52:34.454211",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer1",
+  "plan_name",
+  "plan",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "customer1",
+   "options": "customer1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plan_name",
+   "fieldtype": "Data",
+   "label": "plan name"
+  },
+  {
+   "fieldname": "plan",
+   "fieldtype": "Data",
+   "label": "plan"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Recharge",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-02-11 12:42:27.450250",
+ "modified_by": "Administrator",
+ "module": "custom_app",
+ "name": "Recharge",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
